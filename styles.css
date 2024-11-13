@@ -1,0 +1,54 @@
+header {
+    background-color: palevioletred;
+    padding: 1rem;
+ }
+
+ body{
+    margin: 0;
+     padding: 0;
+     background-color: plum;
+     background: url("https://th.bing.com/th/id/OIP.bW0pOV1mMVkTRUgCrUknCQHaFj?rs=1&pid=ImgDetMain");
+     color:white;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+ }
+ 
+ footer{
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   background-color: plum;
+   color: black;
+   text-align: center;
+   padding: 5px;
+ }
+
+ p{
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+ }
+
+ h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ .nav class{
+   text-align: center;
+}
+
+
+@media(min-width:768px) and (max-width: 810px){
+   .container-image{
+       flex-direction: column;
+       text-align: center;
+       display: grid;
+       grid-template-columns: 1fr;
+   }
+   .border_img{
+       width: 100%;
+       height: auto;
+   }
+}
